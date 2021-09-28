@@ -18,8 +18,6 @@ form.addEventListener('submit', (e) => {
     let apellido = newform.get('last_name');
 
     data.push({ id: new Date().getMilliseconds(), nombre, apellido});
-
-    newform.
     index()
 });
 
